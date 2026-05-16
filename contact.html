@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>شركة آفاق للسياحة | تواصل معنا</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container navbar">
+    <a href="index.html" class="logo">
+      <img src="/images/logo- travel.png" alt="شعار شركة آفاق" class="logo-img" />
+      <span class="brand-name">آفاق</span>
+    </a>
+
+    <nav class="nav-links">
+      <a class="active" href="index.html">الرئيسية</a>
+      <a href="about.html">من نحن</a>
+      <a href="packages.html">الباقات</a>
+      <a href="destinations.html">الوجهات</a>
+      <a href="contact.html">تواصل معنا</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>تواصل معنا</h2>
+      <p>نحن جاهزون للإجابة على أسئلتك ومساعدتك في اختيار الرحلة المناسبة.</p>
+    </div>
+
+    <div class="contact-wrap">
+      <div class="contact-info">
+        <div class="card item">
+          <div class="icon-box">☎</div>
+          <div>
+            <h3>الهاتف</h3>
+            <p>+970 59 000 0000</p>
+          </div>
+        </div>
+
+        <div class="card item">
+          <div class="icon-box">✉</div>
+          <div>
+            <h3>البريد الإلكتروني</h3>
+            <p>info@afaq-travel.com</p>
+          </div>
+        </div>
+
+        <div class="card item">
+          <div class="icon-box">📍</div>
+          <div>
+            <h3>الموقع</h3>
+            <p>فلسطين - نابلس</p>
+          </div>
+        </div>
+      </div>
+
+      <form>
+        <input type="text" placeholder="الاسم الكامل" />
+        <input type="email" placeholder="البريد الإلكتروني" />
+        <input type="text" placeholder="موضوع الرسالة" />
+        <textarea rows="6" placeholder="اكتب رسالتك هنا..."></textarea>
+        <button type="submit" class="btn btn-primary">إرسال</button>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- نافذة الرسائل المنبثقة -->
+<div id="customModal" class="modal-overlay">
+    <div class="modal-card">
+        <div class="modal-icon">✔</div>
+        <h3 id="modalTitle">تمت العملية</h3>
+        <p id="modalMessage">رسالة النجاح تظهر هنا</p>
+        <button onclick="closeModal()" class="btn btn-primary">موافق</button>
+    </div>
+</div>
+
+<footer>
+  <div class="container">
+    <p>© <strong>شركة آفاق للسياحة</strong> - جميع الحقوق محفوظة</p>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

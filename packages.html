@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>شركة آفاق للسياحة | الباقات</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container navbar">
+    <a href="index.html" class="logo">
+      <img src="/images/logo- travel.png" alt="شعار شركة آفاق" class="logo-img" />
+      <span class="brand-name">آفاق</span>
+    </a>
+
+    <nav class="nav-links">
+      <a class="active" href="index.html">الرئيسية</a>
+      <a href="about.html">من نحن</a>
+      <a href="packages.html">الباقات</a>
+      <a href="destinations.html">الوجهات</a>
+      <a href="contact.html">تواصل معنا</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>الباقات السياحية</h2>
+      <p>اختر الباقة المناسبة لك، وسنساعدك في كل تفاصيل الرحلة.</p>
+    </div>
+
+    <div class="grid-3">
+      <div class="card package">
+        <img src="/images/bed-beach.jpg" alt="باقة شاطئية" />
+        <div class="content">
+          <span class="badge">باقة اقتصادية</span>
+          <h3>رحلة شاطئية</h3>
+          <p>إقامة مريحة مع برنامج زيارة لأجمل الشواطئ والمعالم.</p>
+        </div>
+      </div>
+
+      <div class="card package">
+        <img src="/images/family.jpg" alt="باقة عائلية" />
+        <div class="content">
+          <span class="badge">الأكثر طلبًا</span>
+          <h3>باقة عائلية</h3>
+          <p>برنامج مناسب للعائلات مع أنشطة ممتعة وخيارات إقامة جيدة.</p>
+        </div>
+      </div>
+
+      <div class="card package">
+        <img src="/images/hotel.jpg" alt="باقة فاخرة" />
+        <div class="content">
+          <span class="badge">VIP</span>
+          <h3>باقة فاخرة</h3>
+          <p>خدمة متكاملة وفنادق مميزة وتجربة سفر راقية ومريحة.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- نافذة الرسائل المنبثقة -->
+<div id="customModal" class="modal-overlay">
+    <div class="modal-card">
+        <div class="modal-icon">✔</div>
+        <h3 id="modalTitle">تمت العملية</h3>
+        <p id="modalMessage">رسالة النجاح تظهر هنا</p>
+        <button onclick="closeModal()" class="btn btn-primary">موافق</button>
+    </div>
+</div>
+<footer>
+  <div class="container">
+    <p>© <strong>شركة آفاق للسياحة</strong> - جميع الحقوق محفوظة</p>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
